@@ -10,4 +10,10 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'typescript_tutorial';
+
+  theTypeless: number;
+
+  constructor {
+    this.theTypeless = 12;
+  }
 }
