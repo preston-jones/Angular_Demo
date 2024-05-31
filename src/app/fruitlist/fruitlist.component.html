@@ -24,7 +24,7 @@
                             }
                         }
                     }
-                    <p>({{fruit.stars}})</p>
+                    <p [ngClass]="getStarsColor(fruit.stars)">({{fruit.stars}})</p>
                 </div>
             </div>
             <div><b>Art:</b><br>{{fruit.genus}}</div>

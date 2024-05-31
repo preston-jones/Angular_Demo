@@ -10,6 +10,10 @@ import { Component } from '@angular/core';
 })
 export class FruitlistComponent {
 
+  getStarsColor(item: number) {
+    return item > 3 ? 'fontColorGood' : 'fontColorBad';
+  }
+
   fruitlist = [
     {
       name: "Apfel",
