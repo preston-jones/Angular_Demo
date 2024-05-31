@@ -9,7 +9,6 @@ import { Component } from '@angular/core';
   styleUrl: './fruitlist.component.scss'
 })
 export class FruitlistComponent {
-  howItWorks = "fine";
 
   fruitlist = [
     {
@@ -26,7 +25,7 @@ export class FruitlistComponent {
       description: "Bananen können bis zu 30 Zentimeter lang werden. Im reifen Zustand ist die Schale dick und gelb und lässt sich leicht abziehen. Das cremige bis gelbe Fruchtfleisch ist zunächst fest und stärkehaltig.",
       genus: "Bananengewächse (Musaceae) innerhalb der Einkeimblättrigen Pflanzen (Monokotyledonen)",
       stars: 3.8,
-      reviews:[{name: "Waldemar W.", text: "gut für Obstsalat"},{name: "Olaf P.", text: "Kann man mal machen"}],
+      reviews:[],
     },
     {
       name: "Sauerkirsche",
